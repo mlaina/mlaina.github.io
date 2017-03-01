@@ -16,7 +16,7 @@ MemoryGame = function(gs) {
 	this.cont=0;
 	this.state=0;
 	this.one=false;
-	this.points=80;
+	this.points=60;
 
 	this.initGame = function(){
 		this.cards=new Array(
@@ -86,7 +86,7 @@ MemoryGame = function(gs) {
 				this.cards[pos].found();
 				this.cards[other.pos].found();
 				this.state=1;
-				this.points+=10;
+				this.points+=5;
 				this.one=false;
 				this.cont+=2;
 				if(this.cont==16)this.state=3;
