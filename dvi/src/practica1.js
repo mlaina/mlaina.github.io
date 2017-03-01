@@ -16,7 +16,7 @@ MemoryGame = function(gs) {
 	this.cont=0;
 	this.state=0;
 	this.one=false;
-	this.points=40;
+	this.points=80;
 
 	this.initGame = function(){
 		this.cards=new Array(
