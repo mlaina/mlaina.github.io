@@ -69,7 +69,7 @@ MemoryGame = function(gs) {
 	};
 
 	this.onClick = function(pos){
-		if(pointer){
+		if(pointer && (pos>=0 && pos<16 && pos!=null)){
 			this.gameLogic(pos);
 		}
 	};

@@ -80,14 +80,14 @@ var CustomGraphicServer = function() {
 	 */
 	this.drawMessage = function(message) {
 		ctx.rect(0, 0, canvas.width, this.vOffset);
-		ctx.fillStyle = 'green';
+		ctx.fillStyle = 'white';
 		ctx.fill();
 		ctx.fillText("", canvas.width/2, 30);
 		ctx.font = "25px Lobster";
 		ctx.textAlign = "center";
-		ctx.fillStyle = "#FFF";
+		ctx.fillStyle = "#000";
 		ctx.fillText(message, canvas.width/2, 30);
-		ctx.fillStyle = "#FFF";
+		ctx.fillStyle = "#000";
 	};
 };
 
