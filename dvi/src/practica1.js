@@ -43,7 +43,7 @@ MemoryGame = function(gs) {
 	};
 
 	this.draw = function(){
-
+		
 		switch(this.state){
 			case 0: this.gs.drawMessage("Memory Game - Score: "+this.points);      break;
 			case 1: this.gs.drawMessage("Match found - Score: "+this.points); 	   break;
@@ -65,7 +65,7 @@ MemoryGame = function(gs) {
 			self.draw();
 		}, 16);
 		
-		if(this.state>2)clearInterval(interval);
+		
 	};
 
 	this.onClick = function(pos){
@@ -104,7 +104,7 @@ MemoryGame = function(gs) {
 					
 					pointer=false;
 					this.state=2;
-					if(this.points<=0)this.state=4;
+					if(this.points<=0) this.state=4;
 				}else{
 					this.one=true;
 					this.check.card=card;
