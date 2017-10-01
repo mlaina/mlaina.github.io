@@ -1,16 +1,21 @@
 body{
-	background-color: #0097A7;
+	background-color: #0097A7/*#151515#ffffff*/;
 }
+
+ @font-face {
+  	font-family: Dosis;
+  	src: url(fonts/Dosis/Dosis-Regular.ttf);
+  }
 
 .sign{
 	fill:none;
-	stroke:/*#FF9800#18FFFF#C6FF00*/#ffffff;
+	stroke:/*#FF9800#18FFFF*/#C6FF00/*#ffffff*/;
 	stroke-linecap="round";
 	stroke-miterlimit:10;
-	stroke-width:2;
-  	stroke-dasharray: 800, 40;
+	stroke-width:3;
+  	/*stroke-dasharray: 800, 40;
   	stroke-dashoffset: 1000;
-  	animation: dash 4s linear infinite; /*forwards; */
+  	animation: dash 4s linear infinite; forwards; */
 }
 
 @keyframes dash {
@@ -26,3 +31,11 @@ body{
 	.pulse{animation: tac 10s;}
 	@keyframes tac{0%{transform: translateX(0px);}  40%{transform:scaleX(0.5);} 80%{transform:scaleX(2);} 100%{transform: translateX(960px);}}
 */
+
+myname{
+	color:#C6FF00;
+	font-family: Dosis;
+	font-size: x-large;
+
+}
+
