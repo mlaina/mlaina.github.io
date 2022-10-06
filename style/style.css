@@ -25,7 +25,6 @@ section figcaption {
 
 section img {
 	transform: translate(-40px, 0);
-	transform: scale(1.25);
 	float: right;
 }
 
@@ -121,6 +120,7 @@ a:hover{
 }
 
 .lands img {
+	transform: scale(1.25);
 	width: 160px; /*320px;*/
 	height: 85px; /*170px;*/
 	opacity: 0.9;
