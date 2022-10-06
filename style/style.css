@@ -1,5 +1,5 @@
 body{
-	background-color: #0097A7/*#151515#ffffff*/;
+	background-color: #1b1b1b;
 	margin:0;
 }
 
@@ -13,7 +13,7 @@ nav {
 
 section {
 	margin:40px;
-	/*color:#C6FF00;*/color:#18FFFF;
+	/*color:#C6FF00;*/color:#FFF;
 	font-family: Dosis;
 	font-size: large;
 	height: 150px;
@@ -68,9 +68,75 @@ a:hover{
  	src: url(../fonts/Dosis/Dosis-Regular.ttf);
  }
 
+#laina{
+	max-height: 15rem;
+	margin: auto;
+	max-width: 80rem;
+	left: 50%;
+}
+
+.images .lands{
+	width: 960px;
+	height: 512px;
+	display: flex;
+	overflow: hidden;
+	border-radius: 0.5rem;
+	margin: 0.75rem;
+	box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+}
+
+.container {
+	display: flex;
+}
+
+.wrapper {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 10px;
+	grid-auto-rows: minmax(100px, auto);
+}
+
+.map {
+	display: contents;
+}
+
+.container-lands {
+	width: 55%;
+	display: inline-block;
+}
+
+.silmaritas img {
+	width: 256px;
+	height: 384px;
+}
+.silmaritas {
+	width: 256px; /*512px;*/
+	height: 384px; /*768px; */
+	display: flex;
+	overflow: hidden;
+	border-radius: 0.5rem;
+	margin: 0.75rem;
+	box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+}
+
+.lands img {
+	width: 160px; /*320px;*/
+	height: 85px; /*170px;*/
+}
+
+.lands{
+	width: 160px; /*320px;*/
+	height: 85px; /*170px;*/
+	display: inline-block;
+	overflow: hidden;
+	border-radius: 0.5rem;
+	margin: 0.15rem;
+	box-shadow: rgb(0 0 0 / 10%) 0px 4px 6px -1px, rgb(0 0 0 / 6%) 0px 2px 4px -1px;
+}
+
 .sign{
 	fill:none;
-	stroke:/*#FF9800#18FFFF*/#C6FF00/*#ffffff*/;
+	stroke: #FFF;
 	stroke-linecap="round";
 	stroke-miterlimit:10;
 	stroke-width:3;
